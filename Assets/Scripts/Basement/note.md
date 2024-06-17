@@ -1,0 +1,1 @@
+﻿PlayerBasement 类中提供的接口 BuyUnit() 和 GetNextCollectorCost() （在代码最后）说需要关联到 UI 界面的按键事件里的，用于控制购买兵种。

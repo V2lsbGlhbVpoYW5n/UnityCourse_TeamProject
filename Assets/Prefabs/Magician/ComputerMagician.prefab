@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5507455178868248499
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1539272211789703035, guid: 3fd735c191ac079459b667335fa29987, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539272211789703035, guid: 3fd735c191ac079459b667335fa29987, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539272211789703035, guid: 3fd735c191ac079459b667335fa29987, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539272211789703035, guid: 3fd735c191ac079459b667335fa29987, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539272211789703035, guid: 3fd735c191ac079459b667335fa29987, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539272211789703035, guid: 3fd735c191ac079459b667335fa29987, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539272211789703035, guid: 3fd735c191ac079459b667335fa29987, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539272211789703035, guid: 3fd735c191ac079459b667335fa29987, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539272211789703035, guid: 3fd735c191ac079459b667335fa29987, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539272211789703035, guid: 3fd735c191ac079459b667335fa29987, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2147642950378024124, guid: 3fd735c191ac079459b667335fa29987, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8e1c1123677e40448be32144ef302df6, type: 2}
+    - target: {fileID: 2168280117194440129, guid: 3fd735c191ac079459b667335fa29987, type: 3}
+      propertyPath: m_Name
+      value: ComputerMagician
+      objectReference: {fileID: 0}
+    - target: {fileID: 2168280117194440129, guid: 3fd735c191ac079459b667335fa29987, type: 3}
+      propertyPath: m_TagString
+      value: ComputerMagician
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2168280117194440129, guid: 3fd735c191ac079459b667335fa29987, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -8830095424245990590}
+  m_SourcePrefab: {fileID: 100100000, guid: 3fd735c191ac079459b667335fa29987, type: 3}
+--- !u!1 &3811890354176206755 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8685446257327138832, guid: 3fd735c191ac079459b667335fa29987, type: 3}
+  m_PrefabInstance: {fileID: 5507455178868248499}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5942831801599357554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2168280117194440129, guid: 3fd735c191ac079459b667335fa29987, type: 3}
+  m_PrefabInstance: {fileID: 5507455178868248499}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-8830095424245990590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5942831801599357554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a5bcc9a5203a0049ad6161bbd287469, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distributingOffset: 10
+  detectionRadius: 10
+  attackRadius: 12
+  spacingFactor: 0.8
+  cooldown: 4
+  MAX_COOLDOWN: 4
+  HP: 400
+  ATK: 0
+  status: 0
+  m_Fireball: {fileID: 5310698492117353151, guid: ed9d56de948592e419f04f91920868a2, type: 3}
+  m_FireballSpawn: {fileID: 3811890354176206755}

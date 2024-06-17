@@ -1,0 +1,22 @@
+<Localization>
+  <Entry>
+    <Key>Title</Key>
+    <Value>Real Technically Suspicious (RTS) Game</Value>
+  </Entry>
+	<Entry>
+		<Key>Cost</Key>
+		<Value>cost</Value>
+	</Entry>
+  <Entry>
+    <Key>Start</Key>
+    <Value>start</Value>
+  </Entry>
+  <Entry>
+    <Key>Quit</Key>
+    <Value>quit</Value>
+    </Entry>
+  <Entry>
+		<Key>Switch</Key>
+		<Value>Française</Value>
+	</Entry>
+</Localization>

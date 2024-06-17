@@ -1,0 +1,23 @@
+<Localization>
+	<Entry>
+		<Key>Title</Key>
+		<Value>Jeu réel techniquement suspect</Value>
+	</Entry>
+
+	<Entry>
+		<Key>Cost</Key>
+		<Value>coût</Value>
+		</Entry>
+	<Entry>
+		<Key>Start</Key>
+		<Value>commencer</Value>
+		</Entry>
+	<Entry>
+		<Key>Quit</Key>
+		<Value>démissionner</Value>
+		</Entry>
+	<Entry>
+		<Key>Switch</Key>
+		<Value>English</Value>
+	</Entry>
+</Localization>
